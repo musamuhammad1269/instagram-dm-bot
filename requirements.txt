@@ -1,0 +1,7 @@
+anthropic
+gspread
+google-auth
+fastapi
+uvicorn
+requests
+python-dotenv
