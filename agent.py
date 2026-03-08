@@ -3,6 +3,15 @@ Maddy Burgers - Instagram DM AI Agent
 Handles customer inquiries, reservations, and orders via Instagram DMs
 Uses the official Meta Instagram Messaging API (webhook-based)
 """
+
+import os
+from flask import Flask
+
+app = Flask(__name__)
+
+port = int(os.environ.get("PORT", 8000))  # Render provides PORT
+app.run(host="0.0.0.0", port=port)
+
 from dotenv import load_dotenv
 load_dotenv()  
 import os
