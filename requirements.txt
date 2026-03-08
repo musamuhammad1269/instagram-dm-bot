@@ -5,4 +5,4 @@ fastapi
 uvicorn
 requests
 python-dotenv
-pip install Flask
+flask
